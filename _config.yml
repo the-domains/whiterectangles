@@ -1,14 +1,26 @@
-layout_spectrum: 0.9477786
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.6599044
 color:
-  saturation: 0.4497286
+  saturation: 0.6471536
+  brandStrength: 0.5440387
   lightness: 0.5452847
-  brandStrength: 0.05332007
-  rhythmicContrast: 0.4965823
   brandColors:
-    - '#A690A4'
-    - '#B68F9D'
-    - '#C8ACAB'
-    - '#FBB9BF'
-    - '#E376B7'
+    - '#888176'
+    - '#1E1F20'
+    - '#FFFFFC'
+    - '#FFE943'
+    - '#9B282F'
+  rhythmicContrast: 0.4965823
+layout_spectrum: 0.9477786
 name: Whiterectangles
